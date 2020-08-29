@@ -18,11 +18,12 @@ a{
 }
 .container{
 	display: flex;
-	max-width: 800px;
+	grid-gap: 10px;
+	max-width: 400px;
 	margin: 100px auto;
 	flex-direction: row;
 	align-items: flex-start;
-	justify-content: space-between;
+	justify-content: center;
 }
 .mobiles{
 	margin: 10px;
@@ -97,8 +98,8 @@ form a{
 	font-weight: bold;
 }
 .cadastrar{
-	width: 100%;
-	padding: 20px;
+	width: 350px;
+	padding: 20px 0;
 	border-radius: 4px;
 	border: 1px solid #dbdbdb;
 }
