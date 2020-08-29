@@ -5,6 +5,7 @@
 	border: none;
 	outline: none;
 	font-size: 100%;
+	box-sizing: border-box;
 	font-family: sans-serif;
 	background-color: #fafafa;
 
@@ -61,7 +62,7 @@ form .btn{
 }
 form button{
 	color: #fff;
-	width: 280px;
+	width: 270px;
 	margin: 5px 0;
 	cursor: pointer;
 	font-size: 0.8em;
@@ -81,11 +82,13 @@ form p{
 }
 
 form i{
+	margin: 5px;
 	padding: 5px;
+	display: inline-block;
 }
 
 .conteudos i a{
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 form a{
 	padding: 10px;
