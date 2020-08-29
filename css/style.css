@@ -119,3 +119,28 @@ form a{
 .app p{
 	margin: 20px;
 }
+
+
+/* footer */
+.footer{
+	bottom: 0;
+	width: 100%;
+	margin:  0 auto;
+	position: fixed;
+	font-size: .8rem;
+	text-align: left;
+	padding: 5px 50px;
+}
+.footer p {
+	margin: 10px;
+	color: #0000008f;
+	text-transform: uppercase;
+}
+.footer p a{
+	color: #385185;
+	margin: 0 10px 0 0;
+	text-transform: uppercase;
+}
+.footer p a:hover{
+	text-decoration: underline;
+}
